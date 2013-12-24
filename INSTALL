@@ -26,3 +26,9 @@ make test [CTEST_OUTPUT_ON_FAILURE=1] [ARGS+=-jX] [ARGS+="-E testgui"]
 OS specific instructions:
 =========================
 https://www.keepassx.org/dev/projects/keepassx/wiki/Install_instructions
+
+Building on Linux Mint KDE 15:
+==============================
+Install required packages:
+sudo apt-get install cmake qt4-dev-tools libqt4-dev libgcrypt11-dev zlib1g-dev libxtst-dev
+follow above Building instructions
